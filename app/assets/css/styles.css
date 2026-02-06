@@ -1,0 +1,89 @@
+/* Starter Reset */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  line-height: 1.5;
+  background-color: #000; /* midnight scheme */
+  color: #fff;
+  min-height: 100vh;
+}
+
+/* Hero layout */
+.hero {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.boxed {
+  width: 100%;
+  max-width: 1020px;
+  text-align: center; /* centered h1 and span text */
+}
+
+.eyebrow {
+  display: block;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #ccc;
+}
+
+.overview {
+  font-size: 4rem;
+  letter-spacing: -0.1875rem;
+  line-height: 1.1;
+  margin-bottom: 2rem;
+}
+
+/* Styling Form Upload */
+.img__upload {
+  display: flex;
+  justify-content: center; /* Horizontal Center */
+  width: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column; /* change to column in mobile */
+  align-items: center;
+  gap: 1.5rem; 
+  margin-top: 1rem;
+}
+
+@media (min-width: 600px) {
+  form {
+    flex-direction: row;
+  }
+}
+
+.submit-btn {
+  padding: 0.75rem 1.5rem;
+  cursor: pointer;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #ccc;
+}
+
+
+.site-footer {
+  max-width: 1020px;
+  margin: 0 auto;
+  padding: 20px 0;
+  text-align: center;
+  border-top: 1px solid #333;
+}
