@@ -30,7 +30,7 @@ Framework/libraries used
 The dataset used obtained from [Tensorflow Malaria Dataset](https://www.tensorflow.org/datasets/catalog/malaria).
 
 - **Dataset row:** 27,558 rows
-- **Pembagian Data:** 70% Training, 15% validation, 15% Testing
+- **Data Split:** 70% Training, 15% validation, 15% Testing
 - **Preprocessing:** Load Image, Split Folders (train,val,test), Augment Train Data
 
 ## Model used
